@@ -9,39 +9,256 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Christmas-01.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Christmas-01" startnode="1" creator="Twine" creator-version="2.3.15" ifid="0F708A99-2156-4C24-BFA6-F1CE80D0AF46" zoom="1" format="Harlowe" format-version="3.2.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Starting" tags="" position="411,168.5" size="100,100">(set: $username to &quot;&quot;)Enter your name
+<tw-storydata name="Christmas-01" startnode="1" creator="Twine" creator-version="2.3.15" ifid="0F708A99-2156-4C24-BFA6-F1CE80D0AF46" zoom="0.6" format="Harlowe" format-version="3.2.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Starting" tags="" position="815,184" size="100,100">(set: $username to &quot;&quot;)Enter your name
 (input-box:2bind $username,&quot;X=&quot;,1)
 
-(live: 0.1s)[(if: $username is not &quot;&quot;)[[(stop:)Continue|Story Start]]]</tw-passagedata><tw-passagedata pid="2" name="Story Start" tags="" position="405,320.5" size="100,100">You wake up in a haze. Not sure where you are or how you got there. You move your hands around the immediate vicinity and feel the slight tickle of grass.
+(live: 0.1s)[(if: $username is not &quot;&quot;)[[(stop:)Continue|Story Start]]]</tw-passagedata><tw-passagedata pid="2" name="Story Start" tags="" position="809,336" size="100,100">You wake up in a haze. Not sure where you are or how you got there. You move your hands around the immediate vicinity and feel the slight tickle of grass.
+
+The last thing you remember is a vauge notion of your good buddy Clinto trying to tell you something. It seemed so important but you can&#39;t quite remember.
 
 As you start to regain your senses you notice a map on the ground.
 
 [[Pick up map]]
-[[Ignore map]]</tw-passagedata><tw-passagedata pid="3" name="Pick up map" tags="" position="326,488.5" size="100,100">The map looks relatively new but it was clearly map for someone from the stone age. It&#39;s just paper.
+[[Ignore map]]</tw-passagedata><tw-passagedata pid="3" name="Pick up map" tags="" position="730,504" size="100,100">The map looks relatively new but it was clearly map for someone from the stone age. It&#39;s just paper.
 
 [[Open the map|Paper cut]]
-[[Stand up and look around|Determine starting location]]</tw-passagedata><tw-passagedata pid="4" name="Ignore map" tags="" position="530,502.5" size="100,100">A lingering feeling tells you the map is important. Perhaps it is.
+[[Stand up and look around|Determine starting location]]</tw-passagedata><tw-passagedata pid="4" name="Ignore map" tags="" position="934,518" size="100,100">A lingering feeling tells you the map is important. Perhaps it is.
 
 [[Pick up map]]
-[[Ignore map]]</tw-passagedata><tw-passagedata pid="5" name="Paper cut" tags="" position="251,637.5" size="100,100">You run your hands the folds of the map and
+[[Ignore map]]</tw-passagedata><tw-passagedata pid="5" name="Paper cut" tags="" position="655,653" size="100,100">You run your hands the folds of the map and
 (text-style:&quot;shudder&quot;)[&quot;OW FUCK&quot;]
 Ripping your hand away, you inspect your finger tip and notice a small cut. You now realize why paper is an obsolete technoloy.
 
-[[Stand up and look around|Determine starting location]] </tw-passagedata><tw-passagedata pid="6" name="Determine starting location" tags="" position="401,637.5" size="100,100">You stand up and notice that you are in the middle of track. Like the ones you used to have to run around in highschool. You think to yourself how pointless it was to run in circles and go nowhere.
+[[Stand up and look around|Determine starting location]] </tw-passagedata><tw-passagedata pid="6" name="Determine starting location" tags="" position="805,653" size="100,100">You stand up and notice that you are in the middle of track. Like the ones you used to have to run around in highschool. You think to yourself how pointless it was to run in circles and go nowhere. 
 
-You here a car horn not far away. No... larger than a car... A bus! 
+After a brief moment you recognize this as the track behind North Surrry Secondary School on 160th and 96th in Surrey. You take a moment to (text-colour:orange)[&#39;&#39;circle&#39;&#39;] it on the map.
+
+[[Continue once you&#39;ve circled your starting location on the map|See bus]]</tw-passagedata><tw-passagedata pid="7" name="Squint harder" tags="" position="748,977" size="100,100">(css: &quot;font-size:200%&quot;)+(text-style:&quot;blur&quot;)[Hop on $username]
+
+[[Squint even harder]]
+[[Get on bus]]</tw-passagedata><tw-passagedata pid="8" name="Get on bus" tags="" position="903,1217" size="100,100">Panting after that short run to the bus you realize the irony of having just made fun of running around the track.
+
+Sitting down next to an old lady you looking at the map in your hands and try to figure out the bus&#39; destination. Weak willed as you are you give up on that task and decide to just (text-colour:orange)[&#39;&#39;trace&#39;&#39;] your route instead. Perhaps the path will reveal something.
+
+[[Wait for the bus to start|Bus start]]
+[[Find someone different to sit next to|New bus seat]]</tw-passagedata><tw-passagedata pid="9" name="Squint even harder" tags="" position="748,1126" size="100,100">(css: &quot;font-size:200%&quot;)+(text-style:&quot;smear&quot;)[Stop staring like an idoit and get on the bus $username]
+
+[[Get on bus]]</tw-passagedata><tw-passagedata pid="10" name="See bus" tags="" position="808,802" size="100,100">You hear a car horn not far away. No... larger than a car... A bus! 
 
 Spinning around you spot the bus stopped on the street next to the track. The bus appears to be displaying words. Squinting, you can barely make out what it says.
 
 (css: &quot;font-size:200%&quot;)+(text-style:&quot;blurrier&quot;)[Hop on $username]
 
 [[Squint harder]]
-[[Run to the bus|Get on bus]]</tw-passagedata><tw-passagedata pid="7" name="Squint harder" tags="" position="326,788.5" size="100,100">(css: &quot;font-size:200%&quot;)+(text-style:&quot;blur&quot;)[Hop on $username]
+[[Run to the bus|Get on bus]]</tw-passagedata><tw-passagedata pid="11" name="New bus seat" tags="" position="731,1364" size="100,100">You stand up stand up pretending to stretch while looking around. Noticing someone cute sitting two rows behind, you casually walk back there trying not to make a big deal out of it.
 
-[[Squint even harder]]
-[[Get on bus]]</tw-passagedata><tw-passagedata pid="8" name="Get on bus" tags="" position="516,820.5" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="9" name="Squint even harder" tags="" position="326,937.5" size="100,100">(css: &quot;font-size:200%&quot;)+(text-style:&quot;smear&quot;)[Stop staring like an idoit and get on the bus $username]
+[[Ask if the seat is taken]]
+[[Sit down without asking]]</tw-passagedata><tw-passagedata pid="12" name="Ask if the seat is taken" tags="" position="656,1514" size="100,100">Gesturing for you to sit down, you gladly accept the lukewarm invitation.
 
-[[Get on bus]]</tw-passagedata></tw-storydata>
+Right before your mouth is able to vocalize a coherent greeting, you hear a short, sharp inhale through a nose. Glancing over you see the upper lip and nose wrinkle together.
+
+Panicking, your mind races with what to do next. You know the preceding moments are crucial. It&#39;s fight or flight time.
+
+Fight
+[[Flight]]</tw-passagedata><tw-passagedata pid="13" name="Sit down without asking" tags="" position="806,1514" size="100,100">As if you had just taken a bite from the bold side of a Dorito, you sit down with the confidence of someone who&#39;s mother just told them they were the best looking kid in the class.
+
+Before the already flatten foam of your seat could flatten anymore, you hear a voice.
+
+//&quot;That seat&#39;s taken&quot;//
+
+The word hit like a dull knife to the chest. Blunt and piercing at the same time.
+
+You shoot up and sit in the seat one row back. You moved so quickly that you hoped beyond hope that it look like an innocent mistake and you always meant to take this seat.
+
+[[Bus starts down the street|Bus start]]</tw-passagedata><tw-passagedata pid="14" name="Flight" tags="" position="634,1660" size="100,100">Frozen in embarrassment you sit there. And through your devastation you see a hand reach for the bus stop button.
+
+(text-style:&quot;italic&quot;)[&quot;Excuse me&quot;] the word said as if the speaker didn&#39;t have enough oxygen to form them properly.
+
+In your sorrow you rotate in the seat to let them by.
+
+[[Bus starts down the street|Bus start]]</tw-passagedata><tw-passagedata pid="15" name="Bus start" tags="" position="912,1767" size="100,100">With a low rumble and sudden jolt the bus takes off. Travelling South down 160th street the bus crosses straight through 96th ave.
+
+[[Cross 96th]]</tw-passagedata><tw-passagedata pid="16" name="Cross 96th" tags="" position="912,1917" size="100,100">The bus continues South down 160th for 3 more block untils it takes a sharp right on Fraser Highway.
+
+[[Turn right on Fraser Highway]]</tw-passagedata><tw-passagedata pid="17" name="Turn right on Fraser Highway" tags="" position="912,2067" size="100,100">You attentively read every street sign you pass as the bus barrels down Fraser Highway
+
+156 St...
+152 St...
+148 St...
+
+On and on you go, tracing you route along the map. Until the bus stop just after 140th you see a man holding a sign.
+
+(text-style:&quot;italic&quot;)[&quot;Now Hop Off&quot;]
+
+[[Stay on bus]]
+[[Hop off bus]]</tw-passagedata><tw-passagedata pid="18" name="Stay on bus" tags="" position="837,2217" size="100,100">Must be a coincidence. There is no way that sign is meant you.
+
+No sooner had the bus&#39; engines starting reving to depart the stop than there was a loud mechanical breaking noise and the bus jerked suddenly forward... Then there were no sounds at all. No reving of the engine or wind at the windows.
+
+There is only one option now.
+
+[[Hop off bus]]</tw-passagedata><tw-passagedata pid="19" name="Hop off bus" tags="" position="978.6666666666666,2307" size="100,100">You hop off the bus, thanking you driver for merely doing his job as every good Canadian does. The man holding the sign waves you over.
+
+As you approach, he introduces himself as John.
+
+(text-style:&quot;bold&quot;)[&quot;I can&#39;t believe you made it. This is fantastic!&quot;]
+
+You wonder to yourself who this guy could be and why was he here. Why were you here.
+
+Ask John:
+[[Who are you|John background]]
+[[What am I doing here|John background]]
+[[When did this whole journey start|John background]]
+[[Where did you come from|John background]]
+[[Why are you here|John background]]
+[[How do you know I am the one you are looking for|John background]]</tw-passagedata><tw-passagedata pid="20" name="John background" tags="" position="978.6666666666666,2457" size="100,100">//&quot;We don&#39;t have time for your question.&quot;//
+
+He abruptly interrupts you. He then launches into what feels like a 20 mintue explaination as to we are here. Although you fear that &#39;explanation&#39; is too generous of a word.
+
+It all started back in the year 1348. A meteor crash into the backyard of a French farm boy living what is now New York city. He had travelled to the new world two years prior looking for a fresh start. When the meteor crashed it scared him half to death. He never fully regained that half of himself after that day.
+
+But this meteor also brought with it great fortune. As suddenly as the space rock had arrived, things really start going his way. His crops that year produced twice as much as before, the lovely lady from the next town over started returning his phone calls, his dog which had ran away three years ago came back and he won the local election to become mayor.
+
+Attributing all his good luck to the meteor, which now sat burried under his house, he started to test its limits. First he jumped off his roof and sufferred no bodily injury. Second called the lovely lady from the next town fat and still sufferred no bodily injury. In fact she appeared to take it as some sort of endearing flirting. Last he decided to read a haunted book that was known to kill those who read it. Having flipped the final page, he had sufferred no bodily harm. 
+
+//&quot;I&#39;m immortal&quot;//
+
+As he closed the book he felt a slight twinge on his finger. Looking down he noticed a paper cut. This could hardly be considered bodily harm. Right... A dark cloud started creeping in over his mind. He was transfixed on his finger which although had a deadly wound, barely produced a drop of blood.
+
+//&quot;No this is ridiculous. I&#39;ll be fine.&quot;//
+
+But none the less the French farm boy died 10 years later from dysentery.
+
+People have been hunting for that meteor ever since this story started circulating 700 years ago. John &#39;explains&#39; that we are the latest in a line of people along this journey. He knows that he will not be the one to find the meteor to discover its secrets. The last person he helped was Clinto. He has not heard from him in awhile to recognizes the map you hold as having belonged to your missing friend.
+
+&quot;One last piece of advise to give you before you leave. You must go to where the streams of the air and water touch.&quot;
+
+[[Stare at him blankly]]
+[[Berate him for wasting your time]]</tw-passagedata><tw-passagedata pid="21" name="Stare at him blankly" tags="" position="903.6666666666666,2607" size="100,100">You stand motionless, expressionless, waiting for some form of meaning behind the utter nonsense John just spewed from his mouth.
+
+But without another word and a tip of his hat he was gone.
+
+[[Check your map for something useful]]</tw-passagedata><tw-passagedata pid="22" name="Berate him for wasting your time" tags="" position="1053.6666666666665,2607" size="100,100">&quot;You (text-style:&quot;condense&quot;,&quot;rumble&quot;)[@#%$ %##^#&amp; %^@#@&amp; @!#^^#]. And you (text-style:&quot;rumble&quot;)[$#!@ $&amp;*#]&quot;
+
+But without another word and a tip of his hat he was gone.
+
+[[Check your map for something useful]]</tw-passagedata><tw-passagedata pid="23" name="Check your map for something useful" tags="" position="972,2765.3333333333335" size="100,100">You (text-colour:orange)[&#39;&#39;open your map&#39;&#39;] and start scanning for anything that could be a &#39;stream of the air&#39;. You figure that a stream of the water must be some kind of river so all that is left is air.....
+.....................
+........
+...............................
+................
+......
+.....................
+..........
+...................
+.........................
+........................
+......................
+........
+...........
+................
+.....................
+........
+...............................
+................
+......
+.....................
+..........
+...................
+.........................
+........................
+......................
+........
+...........
+................
+.....................
+........
+...............................
+................
+......
+.....................
+..........
+...................
+.........................
+........................
+......................
+........
+...........
+................
+
+[[...........|Pick airport]]</tw-passagedata><tw-passagedata pid="24" name="Pick airport" tags="" position="967,2945.3333333333335" size="100,100">(text-style:&quot;emboss&quot;)[AH HA]
+
+A &#39;stream of the air&#39; must be referring to the jet streams. Those relatively narrow bands of strong wind in the upper levels of the atmosphere. Planes use those to help fly around the world. It must refer to an airport. The next destination must be an airport on this map. And somehow have something to do with a river.
+
+[[Go to Langley Airport]]
+[[Go to Pitt Meadows Airport]]
+[[Go to Abbotsford Airport]]
+[[Go to Chilliwack Airport]]
+[[Go to Surrey Airport]]</tw-passagedata><tw-passagedata pid="25" name="Go to Langley Airport" tags="" position="465.3333333333333,3087" size="100,100">After looking around Langley Airport for 4 hours, you realize that it is now dark out. Not wanting to stop your search for clues you try to find somewhere to hide so when the security guard does his rounds he will not see you.
+
+[[Hide in a plane]]
+[[Hide in a dumpster]]</tw-passagedata><tw-passagedata pid="26" name="Go to Pitt Meadows Airport" tags="" position="925.3333333333334,3473.6666666666665" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="27" name="Go to Abbotsford Airport" tags="" position="1042,3095.3333333333335" size="100,100">Arriving at the Abbotsford Airport, you sit in the terminal thinking about what the next clue could be. Perhaps someone will be waiting for you like John was.
+
+After looking around for an hour you notice a little girl in corner who has been staring at you the whole time you have been here.
+
+//&quot;Coincidence? I think not!&quot;//
+
+As you say your over confident line to yourself you pull out a piece of candy to show the little girl that you are not a danger. As you start to walk close the expression of the girls face goes from curiosity to troubled to fear. Once you get within arms distance she cries out.
+
+&#39;&#39;//&quot;Daddy!&quot;//&#39;&#39;
+
+A realize of what you have just done hits you like a freight train. You spin around on the spot and notice a large man sprinting towards you. The way he was running made you think he was a football player and new how to tackle someone to the ground.
+
+Letting out a high pitch squeal you bolt out the airport and to your next destination.
+
+[[Go to Langley Airport]]
+[[Go to Pitt Meadows Airport]]
+[[Go to Chilliwack Airport]]
+[[Go to Surrey Airport]]</tw-passagedata><tw-passagedata pid="28" name="Go to Chilliwack Airport" tags="" position="1262,3092" size="100,100">You get to Chilliwack airport after driving forever and realize that it is just one landing strip and like three planes...
+
+After walking the entirety of the property in under two minutes you determine that there is nothing here.
+
+[[Go to Langley Airport]]
+[[Go to Pitt Meadows Airport]]
+[[Go to Abbotsford Airport]]
+[[Go to Surrey Airport]]</tw-passagedata><tw-passagedata pid="29" name="Go to Surrey Airport" tags="" position="1520.3333333333335,3088.666666666667" size="100,100">After driving around Surrey for 6 hours you realize there is no Surrey airport... you idoit...
+
+[[Go to Langley Airport]]
+[[Go to Pitt Meadows Airport]]
+[[Go to Abbotsford Airport]]
+[[Go to Chilliwack Airport]]</tw-passagedata><tw-passagedata pid="30" name="Hide in a plane" tags="" position="390.3333333333333,3237" size="100,100">You sit in the plane waiting for the guard to pass. You can see his flashlight dancing along the wall to the right of the cockpit. As he get closer you start to hear the pitter patter of his footsteps get louder.
+
+Reaching your head up to try and see the security guard, you suddenly hear a loud horn. Like a car horn. Is there a car in here?
+
+Before you have a chance to locate the supposed car, the guard is standing on the wing of the plane pointing his gun at you.
+
+//&#39;&#39;&quot;Get out!&quot;&#39;&#39;//
+
+As he escorts you off the premises you ask him what made the horn sound. Rolling his eyes he says you made it. Apparently planes have horns too. 
+
+He throws you out of the airport and luckily does not call the cops. I guess this isn&#39;t the right location.
+
+[[Go to Pitt Meadows Airport]]
+[[Go to Abbotsford Airport]]
+[[Go to Chilliwack Airport]]
+[[Go to Surrey Airport]]</tw-passagedata><tw-passagedata pid="31" name="Hide in a dumpster" tags="" position="540.3333333333333,3237" size="100,100">After closing the lid to your dumpster hiding place you realize how dark it gets inside one of these things. It is just you and smell of who knows what. You try to hold your breath but realize that you will probably be in here longer than 30 seconds so it would be a fruitless endeavour.
+
+A short amount of time later you start to hear the pitter patter of the guard getting close to you. As the footsteps reach their loudest the suddenly stop. You hear a short, sharp inhale through a nose. Then the unmistakable sound of a dry heave.
+
+The dumpster lid swing open and all you can see is the blinding light from a flashlight.
+
+&#39;&#39;//&quot;Get out&quot;//&#39;&#39;
+
+As he escorts you off the premises you ask him how he knew you where there.
+
+//&quot;The garbage smelled &#39;&#39;SO&#39;&#39; much worse than usual.&quot;//
+
+Pinching your armpits tight and refusing to make eye contact you quitely do as you are told and leave the airport. I guess this isn&#39;t the right location.
+
+[[Go to Pitt Meadows Airport]]
+[[Go to Abbotsford Airport]]
+[[Go to Chilliwack Airport]]
+[[Go to Surrey Airport]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">"use strict";var _slicedToArray=function(){return function(e,t){if(Array.isArray(e))return e;if(Symbol.iterator in Object(e))return function(e,t){var n=[],r=!0,a=!1,i=void 0;try{for(var o,s=e[Symbol.iterator]();!(r=(o=s.next()).done)&&(n.push(o.value),!t||n.length!==t);r=!0);}catch(e){a=!0,i=e}finally{try{!r&&s.return&&s.return()}finally{if(a)throw i}}return n}(e,t);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}!function(){
 /**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
