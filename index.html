@@ -219,7 +219,7 @@ As you watched in, the plane started twisting and turning in the air. The smoke 
 
 (set: $roadname to &quot;&quot;)
 (input-box:2bind $roadname,&quot;X=&quot;,1)
-(css: &quot;font-size:50%&quot;)[//Once you type the correct name the continue button will appear.//]
+(css: &quot;font-size:50%&quot;)[//Once you type the correct street name the continue button will appear.//]
 
 (live: 0.1s)[(if: (lowercase: $roadname) is &quot;green&quot;)[[(stop:)Continue|Go to green rd]]]</tw-passagedata><tw-passagedata pid="27" name="Go to Abbotsford Airport" tags="" position="1042,3095" size="100,100">Arriving at the Abbotsford Airport, you sit in the terminal thinking about what the next clue could be. Perhaps someone will be waiting for you like John was.
 
@@ -231,7 +231,7 @@ As you say your over confident line to yourself you pull out a piece of candy to
 
 &#39;&#39;//&quot;Daddy!&quot;//&#39;&#39;
 
-A realize of what you have just done hits you like a freight train. You spin around on the spot and notice a large man sprinting towards you. The way he was running made you think he was a football player and new how to tackle someone to the ground.
+A realize of what you have just done hits you like a freight train. You spin around on the spot and notice a large man sprinting towards you. The way he was running made you think he was a football player and knew how to tackle someone to the ground.
 
 Letting out a high pitch squeal you bolt out the airport and to your next destination.
 
@@ -245,7 +245,7 @@ After walking the entirety of the property in under two minutes you determine th
 [[Go to Langley Airport]]
 [[Go to Pitt Meadows Airport]]
 [[Go to Abbotsford Airport]]
-[[Go to Surrey Airport]]</tw-passagedata><tw-passagedata pid="29" name="Go to Surrey Airport" tags="" position="1520,3088" size="100,100">After driving around Surrey for 6 hours you realize there is no Surrey airport... you idoit...
+[[Go to Surrey Airport]]</tw-passagedata><tw-passagedata pid="29" name="Go to Surrey Airport" tags="" position="1520,3088" size="100,100">After driving around Surrey for 6 hours you realize there is no Surrey airport... you idiot...
 
 [[Go to Langley Airport]]
 [[Go to Pitt Meadows Airport]]
@@ -316,7 +316,7 @@ You (text-colour:orange)[open] your map looking the answer to respond to the tex
 (input-box:2bind $portname,&quot;X=&quot;,1)
 (css: &quot;font-size:50%&quot;)[//Once you type the correct destination the continue button will appear.//]
 
-(live: 0.1s)[(if: (lowercase: $portname) is &quot;fraser&quot;)[[(stop:)Continue|Go to fraser]]]</tw-passagedata><tw-passagedata pid="36" name="step 1" tags="" position="943,3924" size="100,100">Phew you made it past that crack. However there is a worse scenario approaching fast.
+(live: 0.1s)[(if: (lowercase: $portname) is &quot;fraser&quot;)[[(stop:)Continue|Go to fraser]]]</tw-passagedata><tw-passagedata pid="36" name="step 1" tags="" position="943,3922.3333333333335" size="100,100">Phew you made it past that crack. However there is a worse scenario approaching fast.
 
 [[Step to the left|step 3]]
 [[Step to the right|step 4]]</tw-passagedata><tw-passagedata pid="37" name="step 2" tags="" position="1250,3913" size="100,100">Phew you made it past that crack. However there is a worse scenario approaching fast.
@@ -393,25 +393,25 @@ You ponder this for some time. Suddenly a notion hits you.
 
 You jump up with glee so fast that you almost pull a hammy. But what order do you connect them? You stare the 5 circles, rearranging them in our head every which way.
 
-The most logical way you can connect them is to connect the four closes to each other on the left so the make a box. Then to connect the top right of the box to the last circle. Seems to make some kind of number.
+The most logical way you can connect them is to connect the four closest to each other on the left so the make a box. Then to connect the top right of the box to the last circle. Seems to make some kind of number.
 
 (set: $numname to &quot;&quot;)
 (input-box:2bind $numname,&quot;X=&quot;,1)
 (css: &quot;font-size:50%&quot;)[//Once you type the correct number the continue button will appear.//]
 
-(live: 0.1s)[(if: (lowercase: $numname) is &quot;9&quot;)[[(stop:)Continue|Missing track]]]</tw-passagedata><tw-passagedata pid="53" name="Missing track" tags="" position="996,6023" size="100,100">Connecting the dots revealed a number. Another single digit number like the path your bus took earlier. This must be &#39;&#39;important&#39;&#39; as well.
+(live: 0.1s)[(if: (lowercase: $numname) is &quot;9&quot;)[[(stop:)Continue|Missing track]]]</tw-passagedata><tw-passagedata pid="53" name="Missing track" tags="" position="994.3333333333334,6023" size="100,100">Connecting the dots revealed a number. Another single digit number like the path your bus took earlier. This must be &#39;&#39;important&#39;&#39; as well.
 
 As you were about to put the map away you noticed something odd. Four of the circles are tracks and one of them is not.
 
 //&quot;What&#39;s with all these tracks today?&quot;//
 
-As this ponder this question aloud you read the map closely to determine what has been circled that is not a track.
+As you ponder this question aloud you read the map closely to determine what has been circled that is not a track.
 
 (set: $nontrackname to &quot;&quot;)
 (input-box:2bind $nontrackname,&quot;X=&quot;,1)
 (css: &quot;font-size:50%&quot;)[//Once you type the correct name the continue button will appear.//]
 
-(live: 0.1s)[(if: (lowercase: $nontrackname) is &quot;edwin s richards&quot;)[[(stop:)Continue|Go to Edwin]]]</tw-passagedata><tw-passagedata pid="54" name="Go to Edwin" tags="" position="994.3333333333334,6173" size="100,100">As you arrive at the school Edwin S Richards to start to remember your childhood. Climbing on the jungle gym, jumping off the swings and so much more.
+(live: 0.1s)[(if: (lowercase: $nontrackname) is &quot;edwin s richards&quot;)[[(stop:)Continue|Go to Edwin]]]</tw-passagedata><tw-passagedata pid="54" name="Go to Edwin" tags="" position="994.3333333333334,6173" size="100,100">As you arrive at the school Edwin S Richards you start to remember your childhood. Climbing on the jungle gym, jumping off the swings and so much more.
 
 You climb to the top of the jungle gym reminiscing about how you broke your arm falling from the top when you were 11. You were terrified at the time but now you look back on that day and laugh. Max Robinson was it for Grounders and he had you cornered at the highest point of the structure. Panicking you furiously looked for a way out. And with a stroke of genious you thought hanging off the side of this tower couldn&#39;t be that hard. As quietly and as quickly as you could, you scramble over the railing and stretched your body out as far as it would go.
 
