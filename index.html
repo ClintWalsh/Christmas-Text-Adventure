@@ -9,7 +9,15 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Christmas-01.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Christmas-01" startnode="1" creator="Twine" creator-version="2.3.15" ifid="0F708A99-2156-4C24-BFA6-F1CE80D0AF46" zoom="0.6" format="Harlowe" format-version="3.2.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Starting" tags="" position="815,184" size="100,100">(set: $username to &quot;&quot;)Enter your name
+<tw-storydata name="Christmas-01" startnode="1" creator="Twine" creator-version="2.3.15" ifid="0F708A99-2156-4C24-BFA6-F1CE80D0AF46" zoom="0.6" format="Harlowe" format-version="3.2.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url('https://fonts.googleapis.com/css?family=Roboto');
+tw-story {
+	background-color: #aed581;
+  	font-family: "Roboto";
+}
+
+tw-link {
+ 	color: #ef5350; 
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Starting" tags="" position="815,184" size="100,100">(set: $username to &quot;&quot;)Enter your name
 (input-box:2bind $username,&quot;X=&quot;,1)
 
 (live: 0.1s)[(if: $username is not &quot;&quot;)[[(stop:)Continue|Story Start]]]</tw-passagedata><tw-passagedata pid="2" name="Story Start" tags="" position="807,336" size="100,100">You wake up in a haze. Not sure where you are or how you got there. You move your hands around the immediate vicinity and feel the slight tickle of grass.
@@ -31,7 +39,7 @@ Ripping your hand away, you inspect your finger tip and notice a small cut. You 
 
 [[Stand up and look around|Determine starting location]] </tw-passagedata><tw-passagedata pid="6" name="Determine starting location" tags="" position="805,653" size="100,100">You stand up and notice that you are in the middle of track. Like the ones you used to have to run around in highschool. You think to yourself how pointless it was to run in circles and go nowhere. 
 
-After a brief moment you recognize this as the track behind North Surrry Secondary School on 160th and 96th in Surrey. You take a moment to (text-colour:orange)[&#39;&#39;circle&#39;&#39;] it on the map.
+After a brief moment you recognize this as the track behind North Surrey Secondary School on 160th and 96th in Surrey. You take a moment to (text-colour:orange)[&#39;&#39;circle&#39;&#39;] it on the map.
 
 [[Continue once you&#39;ve circled your starting location on the map|See bus]]</tw-passagedata><tw-passagedata pid="7" name="Squint harder" tags="" position="748,977" size="100,100">(css: &quot;font-size:200%&quot;)+(text-style:&quot;blur&quot;)[Hop on $username]
 
@@ -213,7 +221,7 @@ As you watched in, the plane started twisting and turning in the air. The smoke 
 (input-box:2bind $roadname,&quot;X=&quot;,1)
 (css: &quot;font-size:50%&quot;)[//Once you type the correct name the continue button will appear.//]
 
-(live: 0.1s)[(if: (lowercase: $roadname) is &quot;green&quot;[[(stop:)Continue|Go to green rd]]]</tw-passagedata><tw-passagedata pid="27" name="Go to Abbotsford Airport" tags="" position="1042,3095" size="100,100">Arriving at the Abbotsford Airport, you sit in the terminal thinking about what the next clue could be. Perhaps someone will be waiting for you like John was.
+(live: 0.1s)[(if: (lowercase: $roadname) is &quot;green&quot;)[[(stop:)Continue|Go to green rd]]]</tw-passagedata><tw-passagedata pid="27" name="Go to Abbotsford Airport" tags="" position="1042,3095" size="100,100">Arriving at the Abbotsford Airport, you sit in the terminal thinking about what the next clue could be. Perhaps someone will be waiting for you like John was.
 
 After looking around for an hour you notice a little girl in corner who has been staring at you the whole time you have been here.
 
@@ -292,15 +300,15 @@ You start to walk on your toes. Balancing like a cat and stepping over the crack
 There is a crack coming up and no clear way past it.
 
 [[Step to the left|step 1]]
-[[Step to the right|step 2]]</tw-passagedata><tw-passagedata pid="35" name="Arrive at green rd" tags="" position="768,4971" size="100,100">(text-style:&quot;sway&quot;)[//&quot;Look at this photograph
-Every time I do, it makes me laugh&quot;//]
+[[Step to the right|step 2]]</tw-passagedata><tw-passagedata pid="35" name="Arrive at green rd" tags="" position="766.3333333333334,4971" size="100,100">(text-style:&quot;sway&quot;)[//&quot;Never gonna give you up
+Never gonna let you down&quot;//]
 
 As you stand at the corner of &#39;&#39;Green Rd&#39;&#39; and &#39;&#39;McTavish Rd&#39;&#39; the sound of your favourite song emanates from your pocket. Pulling your phone out you see there is a new text message waiting for you.
 
-//&quot;(text-colour:lime)[Green] becoming (text-colour:cyan)[Blue] is quite fun
+//&#39;&#39;Green&#39;&#39; becoming &#39;&#39;Blue&#39;&#39; is quite fun
 Maybe try looking at the sun
 Speak the name of what is behind
-Your next clue will be there to find&quot;//
+Your next clue will be there to find//
 
 You (text-colour:orange)[open] your map looking the answer to respond to the text with.
 
@@ -308,7 +316,7 @@ You (text-colour:orange)[open] your map looking the answer to respond to the tex
 (input-box:2bind $portname,&quot;X=&quot;,1)
 (css: &quot;font-size:50%&quot;)[//Once you type the correct destination the continue button will appear.//]
 
-(live: 0.1s)[(if: (lowercase: $portname) is &quot;fraser&quot;[[(stop:)Continue|Go to fraser]]]</tw-passagedata><tw-passagedata pid="36" name="step 1" tags="" position="943,3924" size="100,100">Phew you made it past that crack. However there is a worse scenario approaching fast.
+(live: 0.1s)[(if: (lowercase: $portname) is &quot;fraser&quot;)[[(stop:)Continue|Go to fraser]]]</tw-passagedata><tw-passagedata pid="36" name="step 1" tags="" position="943,3924" size="100,100">Phew you made it past that crack. However there is a worse scenario approaching fast.
 
 [[Step to the left|step 3]]
 [[Step to the right|step 4]]</tw-passagedata><tw-passagedata pid="37" name="step 2" tags="" position="1250,3913" size="100,100">Phew you made it past that crack. However there is a worse scenario approaching fast.
